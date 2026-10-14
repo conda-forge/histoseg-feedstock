@@ -1,4 +1,4 @@
-{% set version = "0.1.9.3" %}
+{% set version = "0.1.9.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/histoseg/histoseg-{{ version }}.tar.gz
-  sha256: cdd1ae0e35687ec867240de68fd90511afbd6e98eb9a5025d007bbe127154614
+  sha256: b3654c21ed3827f985344c9530f350b48fe5a1b79ade8b11c0acb2caa830f325
 
 build:
   noarch: python
